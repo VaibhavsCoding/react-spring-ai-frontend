@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  background: #121212;
+  color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.app header {
+  text-align: center;
+  padding: 2rem;
+  font-size: 2rem;
+  background: linear-gradient(90deg, #1a73e8, #4fc3f7);
+  -webkit-background-clip: text;
+  color: transparent;
+}

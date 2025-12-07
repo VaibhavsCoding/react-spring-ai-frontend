@@ -1,0 +1,27 @@
+/* App.css */
+
+/* Full-screen app */
+.app {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  background: #f0f0f0; /* Light background */
+  overflow: hidden;
+}
+
+.app header {
+  padding: 10px 20px;
+  background: rgba(255, 255, 255, 0.9);
+  border-bottom: 1px solid #e0e0e0;
+  text-align: center;
+  z-index: 10;
+}
+
+.app header h1 {
+  margin: 0;
+  font-size: 24px;
+  color: #333333;
+}
