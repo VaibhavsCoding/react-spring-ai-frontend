@@ -97,6 +97,12 @@ The application will automatically use this `VITE_BACKEND_URL` value for all API
 ````
 react-spring-ai-frontend/
 ├── src/
+│   ├─ auth/
+│   │   ├─ AuthContext.jsx
+│   │   ├─ ProtectedRoute.jsx
+│   ├─ pages/
+│   │   ├─ Login.jsx
+│   │   
 │   ├── components/
 │   │   └── ChatBot.jsx       # Main component handling chat logic and rendering
 │   ├── assets/               # Static files and images
